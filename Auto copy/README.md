@@ -40,7 +40,7 @@ function captureFormFields() {
 
 ```
 2. Funcion relacionada con el boton ejecutar que carga los datos capturaros del formulario, de igual manera lo ideal seria que se llenara teniendo en cuenta el path js o path selector, toca modificar la funcion.
-```javascipt
+```javascript
 # filepath: /Auto copy/sidepanel.js
 
 function fillFormFromProfile(profileName) {
