@@ -1,6 +1,6 @@
 # Autofill
 
-El ejemplo de google en el que se baso el panerl corredizo se puede ver aqui: [Side Panel API](https://developer.chrome.com/docs/extensions/reference/sidePanel/).
+El ejemplo de google en el que se baso el panel corredizo se puede ver aqui: [Side Panel API](https://developer.chrome.com/docs/extensions/reference/sidePanel/).
 
 ## Funciones importantes
 1. Esta funcion captura los datos del formulario, lo ideal seria poder guardar el path de js o el del selector, ya que esto facilitaria el caso donde un elemento tiene el mismo nombre para dos elementos diferentes.
