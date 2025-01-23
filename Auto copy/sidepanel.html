@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="buttons.css" />
+    <link rel="stylesheet" href="dropdown.css" />
+    <!--Font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-input-box">
+            <input type="text" placeholder="Perfil" />
+            <a href="#" target="_blank">
+                <i class="material-icons icon">search</i>
+            </a>
+            <ul class="container-suggestions">
+                <li>sugerencia 1</li>
+                <li>sugerencia 2</li>
+                <li>sugerencia 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <div class="container">
+            <div class="buttons">
+                <button id="execute" class="btn btn-1">Ejecutar</button>
+                <!-- <script src="popus2.js" type="module"></script> -->
+            </div>
+        </div>
+        <div class="container">
+            <li class="dropdown__list">
+                <a href="#" class="dropdown__link">
+                    <img src="./assets/setperfil.svg" class="dropdown__ic" />
+                    <span class="dropdown__anchor">Perfiles</span>
+                    <img src="./assets/down.svg" class="dropdown__icon" />
+
+                    <input type="checkbox" class="dropdown__check" />
+                </a>
+
+                <div class="dropdown__content">
+                    <ul class="dropdown__sub">
+                        <li class="dropdown__li">
+                            <a href="#" id="newProfile" class="dropdown__anchor">New</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </div>
+        <div class="container">
+            <div class="buttons">
+                <button id="save" class="btn btn-1">Guardar reglas</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="buttons">
+                <button id="options" class="btn btn-1">Opciones</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="buttons">
+                <button id="delete" class="btn btn-1">Borrar</button>
+            </div>
+        </div>
+    </div>
+    <script src="sidepanel.js"></script>
+</body>
+
+</html>

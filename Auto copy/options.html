@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <!--Font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options</title>
+    <style>
+        /* Agrega estilos según tus necesidades */
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            resize: vertical;
+            min-height: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Opciones</h1>
+    <label for="profileSelect">Seleccionar Perfil:</label>
+    <select id="profileSelect"></select>
+
+    <h2>Campos del Formulario</h2>
+    <input type="text" id="filterInput" placeholder="Filtrar campos...">
+    <table id="fieldsTable">
+        <thead>
+            <tr>
+                <th>Tipo</th>
+                <th>Nombre</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Las filas de la tabla se generarán dinámicamente -->
+        </tbody>
+    </table>
+
+    <h2>Variables</h2>
+    <textarea id="variables" placeholder="Ingrese sus variables aquí..."></textarea>
+    <div class="container">
+        <div class="buttons">
+            <button id="save-all" class="btn btn-1">Guardar variables y campos</button>
+
+        </div>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+
+</html>
