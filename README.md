@@ -17,3 +17,21 @@ Extensión para rellenar formularios para google Chorme
 4. Finalmente se muestra la aplicación ya cargada, ahi tambien mostrara si hay errores.
 
 ![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/instalation4.jpg)
+
+## Uso
+
+### Guardar datos
+1. Llenar el formulario deseado
+2. Crear un nuevo perfil
+
+3. Guardar los datos del formulario
+
+
+### Ejecutar datos
+1. Seleccionar perfil
+
+2. Dar click en ejecutar
+
+### Opciones (variable)
+
+
