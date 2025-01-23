@@ -29,14 +29,47 @@ Extensión para rellenar formularios para google Chorme
 3. Nombrar el nuevo perfil y seleccionar ok 
 
 ![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso2.png)
+
 4. Validar que el perfil se creo correctamente y guardar los datos del formulario
 ![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso3.jpg)
 
 ### Ejecutar datos
-1. Seleccionar perfil
 
-2. Dar click en ejecutar
+1. Seleccionar perfil
+   
+![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso4.jpg)
+
+3. Aparecer un mensaje del perfil seleccionado y los datos
+
+![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso5.png) 
+
+4. Dar click en ejecutar
+
+![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso6.jpg) 
+
+5. Aparecera un mensaje de confirmacion que se lleno el formulario con el perfil seleccionado, dar click en ok
+
+![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso7.png) 
 
 ### Opciones (variable)
+Esto sirve para definir variables para los campos que se quiera y facilitar el diligenciamiento.
 
+1. Seleccionar opciones
 
+![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso8.jpg) 
+
+2. Seleccionar perfil
+3. Escribir las variables en formato json en la parte inferior
+4. En el campo que se quiere reemplazarlas variables poner el nombre de la variable como {@Variable}
+
+![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso9.jpg) 
+
+5. Guardar las variables y los campos
+
+![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso10.jpg) 
+
+6. Aparecera un mensaje de confirmarcion
+   
+![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso11.png) 
+
+8. Ir a la pagina del formulario y ejecutar el perfil para ver los cambios.
