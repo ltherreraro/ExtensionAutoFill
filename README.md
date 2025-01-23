@@ -23,11 +23,14 @@ Extensión para rellenar formularios para google Chorme
 ### Guardar datos
 1. Llenar el formulario deseado
 2. Crear un nuevo perfil
+
 ![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso1.jpg)
 
-4. Guardar los datos del formulario
-![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso2.jpg)
-![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso.3jpg)
+3. Nombrar el nuevo perfil y seleccionar ok 
+
+![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso2.png)
+4. Validar que el perfil se creo correctamente y guardar los datos del formulario
+![URL_de_la_imagen](https://github.com/ltherreraro/ExtensionAutoFill/blob/main/Doc/Images/uso3.jpg)
 
 ### Ejecutar datos
 1. Seleccionar perfil
